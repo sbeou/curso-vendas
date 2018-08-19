@@ -1,0 +1,17 @@
+body {font-family: 'Lato', sans-serif;font-size:16px;}
+.list-item .row div[class*='col']{border:solid 1px #ccc;border-right:0;border-bottom:0;padding:20px;}
+.list-item .row div[class*='col']:last-child{border-right:1px solid #ccc;}
+.list-item .row:last-child {border-bottom:1px solid #ccc;}
+.list-item .row:nth-child(even){background-color:#efefef;}
+.navbar-expand-lg .navbar-nav .nav-link{padding:1rem;}
+.banner{background-color:#4E8FDD;}
+.list-home div[class*='col']{overflow: hidden;}
+.list-home a{display:block;padding:50px 25px;color:#fff;-webkit-transition: all .3s ease-in;-moz-transition: all .3s ease-in;-ms-transition: all .3s ease-in;-o-transition: all .3s ease-in;transition: all .3s ease-in;}
+.list-home a:hover{text-decoration:none;-webkit-transition: all .3s ease-out;-moz-transition: all .3s ease-out;-ms-transition: all .3s ease-out;-o-transition: all .3s ease-out;transition: all .3s ease-out;-webkit-transform:scale(1.5);-moz-transform:scale(1.5);-o-transform:scale(1.5);transform:scale(1.5);background-color:rgba(0, 0, 0, 0.5)}
+.list-home a .fas {display:block;font-size:48px}
+.list-home .usuario{background-color:#00FF00;}
+.list-home .produto{background-color:#93278F;}
+.list-home .fornecedor{background-color:#3FA9F5;}
+.list-home .cliente{background-color:#ED1E79;}
+.list-home .venda{background-color:#006837;}
+.list-home .compra{background-color:#F15A24;}

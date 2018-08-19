@@ -1,0 +1,23 @@
+
+   BadMethodCallException  : Method Illuminate\Database\Schema\Blueprint::foreigns does not exist.
+
+  at C:\xampp\htdocs\curso-vendas\vendor\laravel\framework\src\Illuminate\Support\Traits\Macroable.php:99
+     95|      */
+     96|     public function __call($method, $parameters)
+     97|     {
+     98|         if (! static::hasMacro($method)) {
+  >  99|             throw new BadMethodCallException(sprintf(
+    100|                 'Method %s::%s does not exist.', static::class, $method
+    101|             ));
+    102|         }
+    103|
+
+  Exception trace:
+
+  1   Illuminate\Database\Schema\Blueprint::__call("foreigns")
+      C:\xampp\htdocs\curso-vendas\database\migrations\2018_07_30_201009_create_table_venda.php:38
+
+  2   CreateTableVenda::{closure}(Object(Illuminate\Database\Schema\Blueprint))
+      C:\xampp\htdocs\curso-vendas\vendor\laravel\framework\src\Illuminate\Database\Schema\Builder.php:164
+
+  Please use the argument -v to see more details.
